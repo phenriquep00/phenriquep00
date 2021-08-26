@@ -13,5 +13,5 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 
 name = os.rename(str(name), 'video.mp4')
 video = VideoFileClip(os.path.join('video.mp4'))
-video.audio.write_audiofile(os.path.join('musics', audio.mp3'))
+video.audio.write_audiofile(os.path.join('musics', 'audio.mp3'))
 os.remove('video.mp4')
