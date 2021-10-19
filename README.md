@@ -9,9 +9,6 @@
   🦄 Linguagens: <strong><br>Python  JavaScript  Java  </strong>
 </p>
 
-<p align="left">
-  💼 Ferramentas: <strong>Coloque as suas ferramentas de trabalho.</strong>
-</p>
 
 <p align="left">
   💌 Entre em contato: ⤵️
