@@ -28,7 +28,7 @@
   <a href="https://www.linkedin.com/in/pedro-lima-255a33223/" alt="Linkedin">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-lima-255a33223/" /></a>
 
-  <a href="#" alt="WhatsApp">
+  <a href="https://wa.me/qr/6NRFBITC6GJMI1" alt="WhatsApp">
   <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/qr/6NRFBITC6GJMI1"/></a>
 
   <a href="#" alt="Facebook">
