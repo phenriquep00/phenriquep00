@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
-  Pedro Henrique, estudante de Analise e Desenvolvimento de Sistemas, adquirindo conhecimentos <br>
+  Pedro Henrique, estudante de Analise e Desenvolvimento de Sistemas, adquirindo conhecimentos
   tecnologicos de forma prática.
 </p>
 
