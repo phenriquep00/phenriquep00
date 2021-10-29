@@ -2,8 +2,10 @@ package exercises;
 
 import java.util.Scanner;
 
-public class Ex052 {
-    //52. Write a Java program to calculate the sum of two integers and return true if the sum is equal to a third integer.
+public class Ex053 {
+    /*
+    53. Write a Java program that accepts three integers from the user and return true if the second number is greater than first number and third number is greater than second number. If "abc" is true second number does not need to be greater than first number.
+    */
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         System.out.print("1° number: ");
@@ -13,13 +15,13 @@ public class Ex052 {
         System.out.print("3° number: ");
         int thirdInt = scan.nextInt();
 
-        int sum = firstInt + secondInt;
-
-        if (sum == thirdInt) {
+        if (firstInt < secondInt && secondInt < thirdInt ){
             System.out.println("true");
+
         } else {
             System.out.println("false");
         }
+
         scan.close();
     }
 }
