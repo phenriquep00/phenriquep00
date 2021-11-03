@@ -48,7 +48,17 @@ class Player():
         
         sleep(4)
 
-    def attack():
+    def attack(self, className, times):
+        if className is 'vhl' or className is 'Void Highlord':
+            for _ in times:
+                pyautogui.press('4')
+                sleep(1)
+                pyautogui.press('5')
+                sleep(1)
+                pyautogui.press('3')
+                sleep(1)
+                pyautogui.press('2')
+                sleep(1)
         pass
 
     def collect_item():
