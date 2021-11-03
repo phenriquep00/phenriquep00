@@ -1,12 +1,5 @@
-#! /usr/bin/env python3
+import sys
 
-import player
-import pyautogui
-from time import sleep
+path = sys.executable
 
-player = player.Player('foo')
-
-sleep(1)
-pyautogui.click(800, 800)
-
-player.join_room(room_name='citadel', private=True)
+print(path)

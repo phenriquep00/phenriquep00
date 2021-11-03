@@ -49,15 +49,20 @@ class Player():
         sleep(4)
 
     def attack(self, className, times):
-        if className is 'vhl' or className is 'Void Highlord':
-            for _ in times:
+        if className == 'vhl' or className == 'Void Highlord':
+            # TODO: find a way to combo with VHL and not die
+            for _ in range(times):
                 pyautogui.press('4')
+                pyautogui.press('3')
                 sleep(1)
                 pyautogui.press('5')
+                pyautogui.press('3')
                 sleep(1)
+                pyautogui.press('3')
                 pyautogui.press('3')
                 sleep(1)
                 pyautogui.press('2')
+                pyautogui.press('3')
                 sleep(1)
         pass
 
