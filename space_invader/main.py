@@ -9,7 +9,6 @@ pygame.init()
 # Create screen
 screen = pygame.display.set_mode((800, 600))
 
-
 # background
 background = pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/background.png')
 
@@ -21,7 +20,6 @@ mixer.music.play(-1)
 pygame.display.set_caption('Space Invaders')
 icon = pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/ufo.png')
 pygame.display.set_icon(icon)
-
 
 # Player
 player_img = pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/001-space-invaders.png')
@@ -55,7 +53,6 @@ bullet_state = 'ready'  # ready means the bullet can't be seen, fire means the b
 score_value = 0
 font = pygame.font.Font('freesansbold.ttf', 26)
 
-
 textX = 10
 textY = 10
 
@@ -63,40 +60,52 @@ textY = 10
 over_font = pygame.font.Font('freesansbold.ttf', 72)
 
 
+# functions:
 def game_over_text():
+
     over_text = over_font.render("GAME OVER", True, (255, 255, 255))
     screen.blit(over_text, (200, 250))
 
 
 
 def show_score(x, y):
+
     score = font.render('Score :' + str(score_value), True, (255, 255, 255))
     screen.blit(score, (x, y))
 
 def player(x, y):
+
     screen.blit(player_img, (x, y))
 
 
 def enemy(x, y, _):
+
     screen.blit(enemy_img[_], (x, y))
 
 
 def fire_bullet(x, y):
+
     global  bullet_state
     bullet_state = 'fire'
     screen.blit(bullet_img, (x + 8, y + 5))
 
 
+
 def IsColision(enemyX, enemyY, bulletX, bulleY):
+
     distance = math.sqrt(math.pow(enemyX - bulletX, 2) + math.pow(enemyY - bulletY, 2))
+
     if distance < 23:
+
         return True
     else: 
+
         return False
 
 
 # Game loop
 running = True
+
 while running:
     
     # RED GREEN AND BLUE
@@ -132,8 +141,10 @@ while running:
 
     # width borders
     if playerX <= 0:
+
         playerX = 0
     elif playerX >= 768:
+        
         playerX = 768
 
     # Enemy movement
