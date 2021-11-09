@@ -25,6 +25,7 @@ public class Ex069 {
         }
 
         System.out.print("Half of the String: " + newStr);
+        scan.close();
 
     }
 }
