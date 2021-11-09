@@ -36,11 +36,13 @@ function finalizar(){
         alert('Nenhum valor adicionado!')
     } else {
     let paragrafo = document.createElement('p')
+
         paragrafo.innerHTML += `<p>O total de números adicionados foi ${arr.length}</p>`
         paragrafo.innerHTML += `<p>O maior número informado foi ${arr.sort()[arr.length -1]}</p>`
         paragrafo.innerHTML += `<p>O menor número informado foi ${arr.sort()[0]}</p>`
         paragrafo.innerHTML += `<p>A soma dos números informados é ${sum(arr)}</p>`
         paragrafo.innerHTML += `<p>A média dos valores é ${sum(arr)/arr.length}</p>`
+        
         res.appendChild(paragrafo)
     }
     
