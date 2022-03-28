@@ -12,13 +12,11 @@
 </p>
 
 <p align="left">
-  <a href="#" alt="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=contact.pedrolima@gmail.com" /></a>
 
-  <a href="https://www.linkedin.com/in/pedro-lima-255a33223/" alt="Linkedin">
+  <a href="https://www.linkedin.com/in/pedro-lima-255a33223/" alt="Linkedin" target='_blank'>
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-lima-255a33223/" /></a>
 
-  <a href="https://wa.me/qr/6NRFBITC6GJMI1" alt="WhatsApp">
+  <a href="https://wa.me/qr/6NRFBITC6GJMI1" alt="WhatsApp" target="_blank">
   <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/qr/6NRFBITC6GJMI1"/></a>
 
   <a href="https://www.facebook.com/pedro.henriquefonseca.925" alt="Facebook">
