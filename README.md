@@ -5,9 +5,8 @@
 </p>
 
 <p align="left">
-  🦄 Languages: <strong><br><code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>Python  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>JavaScript  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>Java  </strong>
-  
-  
+
+ 
 </p>
 
   ![snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake2.svg)
