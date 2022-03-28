@@ -10,7 +10,7 @@
   
 </p>
 
-  ![snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake2.svg)
+  ![snake animation](https://github.com/<phenriquep00>/<phenriquep00>/blob/output/github-contribution-grid-snake2.svg)
 
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phenriquep00&theme=dracula&hide_langs_below=1" />
 
