@@ -3,18 +3,10 @@
   Hello there
 </p>
 
-<p align="left">
-
- 
-</p>
-
   ![snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake2.svg)
 
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phenriquep00&theme=dracula&hide_langs_below=1" />
-
-
- <img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dracula&line_height=27" alt="**Pedro** github stats"/>
-
+  <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phenriquep00&theme=dracula&hide_langs_below=1" <img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dracula&line_height=27" alt="**Pedro** github stats"/>
+/>
 
 <p align="left">
   💌 Entre em contato: ⤵️
