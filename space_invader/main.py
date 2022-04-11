@@ -10,19 +10,19 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
 # background
-background = pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/background.png')
+background = pygame.image.load('background.png')
 
 # Background sound
-mixer.music.load('spaceinvader/background.wav')
+mixer.music.load('background.wav')
 mixer.music.play(-1)
 
 # Title and Icon
 pygame.display.set_caption('Space Invaders')
-icon = pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/ufo.png')
+icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 
 # Player
-player_img = pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/001-space-invaders.png')
+player_img = pygame.image.load('001-space-invaders.png')
 playerX = 375
 playerY = 480
 playerX_change = 0
@@ -36,14 +36,14 @@ enemyY_change = []
 num_of_enemies = 6
 
 for _ in range(num_of_enemies):
-    enemy_img.append(pygame.image.load('/home/pedro/PycharmProjects/spaceinvader/001-alien.png'))
+    enemy_img.append(pygame.image.load('001-alien.png'))
     enemyX.append(random.randint(0, 767))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(2)
     enemyY_change.append(40)
 
 # bullet
-bullet_img = pygame.image.load('spaceinvader/001-bullet.png')
+bullet_img = pygame.image.load('001-bullet.png')
 bulletY = 480
 bulletX = 0
 bulletY_change = 5
@@ -127,7 +127,7 @@ while running:
                 playerX_change = 5
             if event.key == pygame.K_SPACE:
                 if bullet_state == 'ready':
-                    bullet_sound = mixer.Sound('spaceinvader/laser.wav')
+                    bullet_sound = mixer.Sound('laser.wav')
                     bullet_sound.play()
                     bulletX = playerX
                     fire_bullet(bulletX, bulletY)
@@ -169,7 +169,7 @@ while running:
         # Colision
         colision = IsColision(enemyX[_], enemyY[_], bulletX, bulletY)
         if colision:
-            colision_sound = mixer.Sound('spaceinvader/explosion.wav')
+            colision_sound = mixer.Sound('explosion.wav')
             colision_sound.play()
             bulletY = 480
             bullet_state = 'ready'

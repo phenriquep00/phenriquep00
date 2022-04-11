@@ -6,7 +6,7 @@ public class Ex066 {
     public static void main(String[] args){
         int total = 0;
         for (int i = 0; i <= 541; i++ ) { // 541 is the100th prime number
-            if (isPrime(i) == true)
+            if (isPrime(i))
                 total += i;
         }
         System.out.println(total);
@@ -19,11 +19,7 @@ public class Ex066 {
                 c++;
             }
         }
-        if (c == 2){
-            return true;
-        } else{
-            return false;
-        }
+        return c == 2;
         
     }
 }
