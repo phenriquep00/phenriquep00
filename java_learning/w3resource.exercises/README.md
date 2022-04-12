@@ -1,1 +1,0 @@
-# Java exercises by https://www.w3resource.com/java-exercises/basic/index.php
