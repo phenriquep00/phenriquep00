@@ -2,10 +2,6 @@ import PySimpleGUI as sg
 from timer import Timer
 
 
-def handle_time_decay(w):
-    pass
-
-
 sg.theme('DarkGray5')
 timer = Timer('25')
 
@@ -19,9 +15,11 @@ layout = [
 
 window = sg.Window('Pomodoro', layout)
 
+start = False
 
 while True:
-    event, values = window.read()
+
+    event, values = window.read(timeout=100)
 
     if event == sg.WIN_CLOSED:  # if user closes window or clicks cancel
         break
@@ -39,4 +37,9 @@ while True:
 
     # start the countdown
     if event == 'Start':
-        window['minutes'].update('24')
+        event = sg.TIMEOUT_EVENT
+        start = True
+
+    if event == sg.TIMEOUT_EVENT:
+        if int(window['seconds'].get()) > 0 and start:
+            window['seconds'].update(int(window['seconds'].get()) - 1)
