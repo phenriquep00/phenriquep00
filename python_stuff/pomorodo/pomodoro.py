@@ -51,10 +51,25 @@ while True:
         window['minutes'].update('25')
 
     if event == 'Focus':
+        start = False
+        timer.minutes = '25'
+        timer.seconds = '59'
+        window['seconds'].update('59')
+        window['minutes'].update('25')
 
     if event == 'Short Break':
+        start = False
+        timer.minutes = '4'
+        timer.seconds = '59'
+        window['seconds'].update('59')
+        window['minutes'].update('4')
 
     if event == 'Long Break':
+        start = False
+        timer.minutes = '9'
+        timer.seconds = '59'
+        window['seconds'].update('59')
+        window['minutes'].update('9')
 
     if event == sg.TIMEOUT_EVENT:
         if int(window['minutes'].get()) >= 0:
