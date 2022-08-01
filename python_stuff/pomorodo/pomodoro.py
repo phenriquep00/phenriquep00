@@ -19,7 +19,7 @@ start = False
 
 while True:
 
-    event, values = window.read(timeout=100)
+    event, values = window.read(timeout=1000)
 
     if event == sg.WIN_CLOSED:  # if user closes window or clicks cancel
         break
@@ -36,9 +36,12 @@ while True:
         window['minutes'].update('10')
 
     # start the countdown
-    if event == 'Start':
+    if event == 'Start' and not start:
         event = sg.TIMEOUT_EVENT
         start = True
+
+    if event == 'Pause':
+        start = False
 
     if event == sg.TIMEOUT_EVENT:
         if int(window['minutes'].get()) >= 0:
