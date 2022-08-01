@@ -3,7 +3,7 @@ from timer import Timer
 
 
 sg.theme('DarkGray5')
-timer = Timer('25')
+timer = Timer('24')
 
 layout = [
 
