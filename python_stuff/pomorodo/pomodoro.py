@@ -41,5 +41,10 @@ while True:
         start = True
 
     if event == sg.TIMEOUT_EVENT:
-        if int(window['seconds'].get()) > 0 and start:
-            window['seconds'].update(int(window['seconds'].get()) - 1)
+        if int(window['minutes'].get()) >= 0:
+            if int(window['seconds'].get()) > 0 and start:
+                window['seconds'].update(int(window['seconds'].get()) - 1)
+            elif int(window['seconds'].get()) == 0 and start:
+                window['minutes'].update(int(window['minutes'].get()) - 1)
+                window['seconds'].update('59')
+
