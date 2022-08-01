@@ -43,6 +43,13 @@ while True:
     if event == 'Pause':
         start = False
 
+    if event == 'Stop':
+        start = False
+        timer.minutes = '25'
+        timer.seconds = '59'
+        window['seconds'].update('59')
+        window['minutes'].update('25')
+
     if event == sg.TIMEOUT_EVENT:
         if int(window['minutes'].get()) >= 0:
             if int(window['seconds'].get()) > 0 and start:
@@ -50,4 +57,3 @@ while True:
             elif int(window['seconds'].get()) == 0 and start:
                 window['minutes'].update(int(window['minutes'].get()) - 1)
                 window['seconds'].update('59')
-
