@@ -26,6 +26,7 @@ while True:
     if event == sg.WIN_CLOSED:  # if user closes window or clicks cancel
         break
 
+    # timer mode change
     if event == "Focus":
         timer.minutes = '25'
         window['minutes'].update('25')
@@ -36,5 +37,6 @@ while True:
         timer.minutes = '10'
         window['minutes'].update('10')
 
+    # start the countdown
     if event == 'Start':
         window['minutes'].update('24')
