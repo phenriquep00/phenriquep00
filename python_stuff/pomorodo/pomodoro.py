@@ -27,13 +27,13 @@ while True:
     # timer mode change
     if event == "Focus":
         timer.minutes = '24'
-        window['minutes'].update('25')
+        window['minutes'].update('24')
     elif event == "Short Break":
-        timer.minutes = '5'
-        window['minutes'].update('5')
+        timer.minutes = '4'
+        window['minutes'].update('4')
     elif event == "Long Break":
-        timer.minutes = '10'
-        window['minutes'].update('10')
+        timer.minutes = '9'
+        window['minutes'].update('9')
 
     # start the countdown
     if event == 'Start' and not start:
