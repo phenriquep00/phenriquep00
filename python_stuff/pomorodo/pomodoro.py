@@ -8,8 +8,9 @@ timer = Timer('24')
 layout = [
 
     [sg.Button("Focus"), sg.Button("Short Break"), sg.Button("Long Break")],
+    [sg.Button("+", s=(3, 1)), sg.Button("-", s=(3, 1))],
     timer.draw(),
-    [sg.Button("Start"), sg.Button("Pause"), sg.Button("Stop")]
+    [sg.Button("Start", s=(5, 1)), sg.Button("Pause", s=(5, 1)), sg.Button("Stop", s=(5, 1))]
 
 ]
 
@@ -34,6 +35,11 @@ while True:
     elif event == "Long Break":
         timer.minutes = '9'
         window['minutes'].update('9')
+
+    # + - buttons
+    if event == "+":
+        timer.minutes = int(window['minutes'].get()) + 1
+        window['minutes'].update(timer.minutes)
 
     # start the countdown
     if event == 'Start' and not start:
