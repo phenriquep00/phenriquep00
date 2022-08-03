@@ -40,6 +40,9 @@ while True:
     if event == "+":
         timer.minutes = int(window['minutes'].get()) + 1
         window['minutes'].update(timer.minutes)
+    if event == "-" and int(timer.minutes) > 0:
+        timer.minutes = int(window['minutes'].get()) - 1
+        window['minutes'].update(timer.minutes)
 
     # start the countdown
     if event == 'Start' and not start:
