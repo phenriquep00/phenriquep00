@@ -1,8 +1,6 @@
+#  Hello there
 
-# https://phenriquep00.github.io/portfolio/
-<p align="left"> 
-  Hello there
-</p>
+## https://phenriquep00.github.io/portfolio/
 
   ![snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake2.svg)
 
