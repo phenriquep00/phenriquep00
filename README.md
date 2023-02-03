@@ -2,8 +2,6 @@
 
 ## https://phenriquep00.github.io/portfolio/
 
-  ![snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake2.svg)
-
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phenriquep00&layout=compact&theme=dark"/></p>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dark" alt="github stats"/></p>
 
