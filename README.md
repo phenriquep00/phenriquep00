@@ -1,25 +1,28 @@
 #  Hello there
 
 ## https://phenriquep00.github.io/portfolio/
+</br>
+ <div>
+  <a href="https://github.com/phenriquep00">
+   <img align="center" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phenriquep00&layout=compact&langs_count=16&theme=dracula"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide=issues"/>
+</div>
+ 
+ ## Skills
+<div style="display: inline_block"><br>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phenriquep00&layout=compact&theme=dark"/></p>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dark" alt="github stats"/></p>
+</div>
+  
+</br>
 
-<p align="left">
-  💌 Contact: ⤵️
-</p>
-
-<p align="left">
-
-  <a href="https://www.linkedin.com/in/pedro-lima-255a33223/" alt="Linkedin" target="_blank">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedro-lima-255a33223/" /></a>
-
-  <a href="https://wa.me/qr/6NRFBITC6GJMI1" alt="WhatsApp" target="_blank">
-  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.link/ilpmbi"/></a>
-
-  <a href="https://www.facebook.com/pedro.henriquefonseca.925" alt="Facebook" target="blank">
-  <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=https://www.facebook.com/pedro.henriquefonseca.925"/></a>
-
-  <a href="https://www.instagram.com/im.pedrooo/" alt="Instagram" target="_blank">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=https://www.instagram.com/im.pedrooo/"/></a>
-</p>  
+## Contact 
+<div> 
+  <a href="https://www.linkedin.com/in/pedro-lima-255a33223/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=dark" target="_blank"></a> 
+  <a href="https://www.instagram.com/im.pedrooo/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=darke" target="_blank"></a>
+  <a href = "mailto: contact.pedrolima@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=dark" target="_blank"></a>
+ </br>
+</br>
+ 
+  ![Snake animation](https://github.com/eagrundy/phenriquep00/blob/output/github-contribution-grid-snake.svg)
+ 
+</div>
