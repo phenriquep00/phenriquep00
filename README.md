@@ -8,6 +8,8 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide=issues"/>
 </div>
  
+ ![Snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake.svg)
+ 
  ## Skills
 <div style="display: inline_block"><br>
  <img align="center" alt="Pedro-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
@@ -29,6 +31,6 @@
  </br>
 </br>
  
-  ![Snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake.svg)
+  
  
 </div>
