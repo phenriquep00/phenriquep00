@@ -1,6 +1,6 @@
 #  Hello there
 
-## https://phenriquep00.github.io/portfolio/
+## Check out my portfolio: https://phenriquep00.github.io/portfolio/
 </br>
  <div>
   <a href="https://github.com/phenriquep00">
@@ -23,6 +23,6 @@
  </br>
 </br>
  
-  ![Snake animation](https://github.com/eagrundy/phenriquep00/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/phenriquep00/phenriquep00/blob/output/github-contribution-grid-snake.svg)
  
 </div>
