@@ -1,5 +1,7 @@
 #  Hello there!!
 
+## QA Analyst and tech student
+
 ## Check out my portfolio: https://phenriquep00.github.io/portfolio/
 </br>
  <div>
