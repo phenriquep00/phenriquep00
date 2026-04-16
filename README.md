@@ -7,16 +7,6 @@
    <!-- <img align="center" src="https://github-readme-stats.vercel.app/api?username=phenriquep00&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide=issues"/> -->
 </div>
  
- ## Skills
-<div style="display: inline_block"><br>
- <img align="center" alt="Pedro-React" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
- <img align="center" alt="Pedro-Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
- <img align="center" alt="Pedro-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original.svg">
- <img align="center" alt="Pedro-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Pedro-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Pedro-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-</div>
-  
 </br>
 
 ## Contact 
